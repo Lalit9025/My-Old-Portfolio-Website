@@ -1,0 +1,70 @@
+.main-nav{
+  display: flex;
+   align-items:center;
+   justify-content: space-between;
+   text-align: center;
+   width: 100vw;
+}
+.navbar{ 
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 4.5rem;  
+    margin: 0px 0px;
+    padding: 1rem 10rem;
+    /* border-bottom: 0.0625rem solid rgb(90, 82, 82); */
+    background-color: white;
+    border-bottom: 0.0825rem solid rgb(224, 221, 221) ;
+    width: 100vw;
+    
+}
+
+.desktopMenuListItem{
+  margin: 2rem;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+}
+.desktopMenuListItem:hover{
+    color: rgb(152, 145, 145);
+    border-bottom: 2px solid rgb(205, 205, 193);
+}
+/* @media  screen and (max-width: 425px) {
+  .navbar{
+   height: 3rem;
+   margin: 0px 0px;
+   padding: 0px;
+  }
+  .desktopMenuListItem{
+   margin: 0.3rem;
+   font-size: 12px;
+  }
+} */
+/* @media  screen and (min-width: 426px) and (max-width: 700px){  */
+  @media  screen and (max-width: 700px) {
+  .navbar{
+   height: 4rem;
+   margin: 0px 0px;
+   padding: 0;
+  }
+  .desktopMenuListItem{
+   margin: 0.6rem;
+   font-size: 13px;
+  }
+}
+@media  screen and (min-width: 701px) and (max-width: 1350px){
+  .navbar{
+   height: 5rem;
+   margin: 0px;
+   padding: 0;
+   align-items: center;
+  }
+  .desktopMenuListItem{
+      margin: 2rem;
+      font-size: 20px;
+  }
+}

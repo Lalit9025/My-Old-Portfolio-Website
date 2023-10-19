@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto:wght@400;700&display=swap');
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+.i-1{
+    text-align: left;
+    font-size: 20px;
+    color:  rgb(66, 61, 61);
+}
+.i-2{
+    text-align: left;
+    font-size: 80px;
+    color: rgb(103, 103, 150);
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.aim-text{
+    text-align: left;
+    font-size: 15px;
+    color:  rgb(66, 61, 61);
+}
+@media screen and (max-width: 700px){
+    .intro{
+       
+        align-items:center;
+        margin-top: 40px;
+        
+    }
+    .i-1{
+        text-align: center;
+        font-size: 10px;
+        margin: 10px 0px;
+        
+    }
+    .i-2{
+        text-align: center;
+        font-size: 30px;
+        margin: 0px 10px;
+        padding: 0px 30px;
+    }
+    .aim-text{
+        text-align: center;
+        font-size: 8px;
+        margin: 10px 0px;
+    }
+}
+@media  screen and (min-width: 701px) and (max-width: 1350px){
+    .intro{
+       
+        align-items:center;
+        margin-top: 40px;
+        
+    }
+    .i-1{
+        text-align: center;
+        font-size: 15px;
+        margin: 10px 0px;
+        
+    }
+    .i-2{
+        text-align: center;
+        font-size: 40px;
+        margin: 0px 10px;
+        padding: 0px 30px;
+    }
+    .aim-text{
+        text-align: center;
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+}

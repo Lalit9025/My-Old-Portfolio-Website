@@ -1,0 +1,153 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    justify-content: center;
+    
+}
+.skill-icon{
+    border: 1px solid black;
+    height: 2rem;
+    width: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px ;
+    border-radius: 2rem;
+    margin: 50px 20px;
+    
+}
+.icon-color{
+    color: rgb(190, 32, 32);
+}
+.project-heading{
+    display: flex;
+    flex-direction: column;
+    text-align:left;  
+}
+.m-head{
+    margin-bottom: 40px;
+}
+.phead-text1{
+    text-align:left;
+    font-size: 50px;
+    margin-left: 20px;
+   
+}
+.phead-text2{
+    text-align:left;
+    font-size: 50px;
+}
+@media screen and (max-width:700px) {
+    .skills{
+        align-items: center;
+        justify-content: center;
+    }
+    .project-heading{
+        text-align:center;  
+    }
+    .phead-text1{
+        text-align:center;
+        font-size: 25px;
+        margin-left: 0px;
+       
+    }
+    .phead-text2{
+        text-align:center;
+        font-size: 25px;
+    }
+}
+@media  screen and (min-width: 701px) and (max-width: 1350px){
+    .skills{
+        align-items: center;
+        justify-content: center;
+    }
+    .project-heading{
+        text-align:center;  
+    }
+    .phead-text1{
+        text-align:center;
+        font-size: 40px;
+        margin-left: 0px;
+       
+    }
+    .phead-text2{
+        text-align:center;
+        font-size: 40px;
+    }
+}
+.w-dev{
+    margin:30px 50px;
+    text-align: left;
+}
+.dev{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.icons-arr{
+    display: flex;
+    flex-direction: row;
+}
+.icon-pr{
+    margin: 30px;
+}
+@media screen and (max-width:700px) {
+    .w-dev{
+        text-align: center;
+    }
+    .dev{
+        font-size: 16px;
+    }
+    .icons-arr{
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        gap: 0rem;
+        overflow-y: auto;
+        overscroll-behavior-x:contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        width:15rem;
+        align-items: center;
+        justify-content: center;
+        padding-left:11rem
+        
+    }
+    .icon-arr::-webkit-scrollbar{
+        display: none;
+    }
+    .icon-pr{
+        margin: 0px;
+    
+    }
+}
+@media  screen and (min-width: 701px) and (max-width: 1350px){
+    .w-dev{
+        text-align: center;
+    }
+    .dev{
+        font-size: 18px;
+    }
+    .icons-arr{
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        gap: 0rem;
+        overflow-y: auto;
+        overscroll-behavior-x:contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        width:20rem;
+        align-items: center;
+        justify-content: center;
+        padding-left:9rem
+        
+    }
+    .icon-arr::-webkit-scrollbar{
+        display: none;
+    }
+    .icon-pr{
+        margin: 0px;
+    }
+}

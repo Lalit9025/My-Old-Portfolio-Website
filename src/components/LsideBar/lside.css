@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto:wght@400;700&family=Young+Serif&display=swap');
+.div{
+     display: flex;
+     justify-content: center;   
+}
+.bx{  
+    position: fixed;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0px 40px 40px;
+    padding:  15px 5px;
+    height: 32rem;
+    border: 0.05px solid rgb(241, 234, 234);
+    border-radius: 3rem; 
+    background-color: rgb(241, 236, 236); 
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(103, 103, 150);
+    box-shadow: 10px 5px 5px rgb(194, 198, 219);
+    
+}
+
+@media screen and (max-width:700px){
+    .div{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin:10px 0px 0px 0px;
+        width: 100%;
+        
+    }
+    .bx{
+        position: relative;
+        padding: 0px;
+        margin: 100px 0px 0px 0px;
+        width: 90vw;
+        max-width: 400px;
+        
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1350px){
+    .div{
+        position: relative;
+        margin: 60px 0px 0px 0px;
+    }
+    .bx{
+      position: relative;
+      width: 28rem;
+      align-items: center;
+    }  
+    .icons:hover{
+        border: 2px  rgb(103, 103, 150);
+        height: 30.2px;
+        width: 30.2px;
+    }
+  }
+
+/* .full-stack{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    margin: 5px;
+    padding: 4px;
+    align-items: center;
+   
+} */
+
+.f-d{
+    font-size: 20px;
+    font-family: 'Young Serif', sans-serif;
+    color: rgb(103, 103, 150); 
+}
+.img-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 15px;
+}
+.lalit-image{
+    height: 10rem;
+    width: auto;
+    border-radius: 2rem;
+    
+}
+.email{
+    text-align: center;
+    font-size: large;
+    margin:20px 0px;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(103, 103, 150);
+}
+.address{
+    text-align: center;
+    font-size: large;
+    margin:15px 0px;
+}
+.copyrights{
+    text-align: center;
+    font-size: 15px;
+    margin:10px 0px;
+    font-family: 'Young Serif', sans-serif;
+    color: rgb(64, 64, 113); 
+}
+.socialmediaLinks{
+    
+    display: flex;
+    flex-direction: row;   
+    justify-content:space-between;
+    margin: 20px 50px;
+    
+}
+.icons{
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin: 0 10px;
+    
+}
+.icons:hover{
+    border: 2px  rgb(103, 103, 150);
+    height: 35.2px;
+    width: 35.2px;
+}
+.hire{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hirebtn{
+   cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(183, 174, 174);
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    padding: 0 20px;
+    background-color: rgb(194, 198, 219);
+    font-size: 18px;
+    
+}
+.hirebtn:hover{
+    box-shadow: 0px 0px 7px 2px rgb(194, 198, 219);
+    font-size: 18.2px;
+}
+.hirecolor{
+   color: black;
+   display: flex;
+   text-decoration: none;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   
+}
+@media screen and (max-width:700px){
+    .f-d{
+        font-size: 16px; 
+    }
+    .lalit-image{
+        height: 8rem;
+    }
+    .email{
+        margin:16px 0px;
+        font-size: 20px;
+        color: rgb(103, 103, 150);
+    }
+    .copyrights{
+        margin:8px 0px;
+        font-size: 12px;
+    }
+    .icons{
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        
+    }
+    .icons:hover{
+        border: 2px  rgb(103, 103, 150);
+        height: 30.2px;
+        width: 30.2px;
+    }
+    .hirebtn{
+        height: 2rem;
+        width: 9rem;
+        padding: 0 20px;
+        font-size: 15px;
+    }
+    .hirebtn:hover{
+        font-size: 15.2px;
+        box-shadow: 0px 0px 5px 2px rgb(194, 198, 219);
+    }
+}
+.logo-2{
+    display: flex;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+

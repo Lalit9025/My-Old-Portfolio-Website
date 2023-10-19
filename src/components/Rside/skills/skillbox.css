@@ -1,0 +1,99 @@
+.s-box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}  
+.icon-b{
+    height: 8rem;
+    border: 1px solid black;
+    border-radius: 2.5rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.icon-b:hover{
+    border: 2px solid rgb(103, 103, 150);;
+    height: 8.2rem;
+    width: 6.2rem;
+    box-shadow: 10px 5px 5px rgb(209, 204, 204);
+}
+.icon-prop{
+    height: 3rem;
+    width: auto;
+
+}
+.name-prop{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.name-prop:hover{
+    font-size: 16.2px;
+    color: rgb(78, 78, 131);
+}
+@media screen and (max-width:700px) {
+    .s-box{
+        margin: 10px;
+    }
+    .icon-b{
+        height: 5rem;
+        border: 1px solid black;
+        border-radius: 1.5rem;
+        width: 4rem;
+        margin: 10px 0px;
+        
+    }
+    .icon-b:hover{
+        border: 2px solid rgb(103, 103, 150);;
+        height: 5.2rem;
+        width: 4.2rem;
+        box-shadow: 10px 5px 5px rgb(209, 204, 204);
+    }
+    .icon-prop{
+        height: 2rem;
+        width: auto;
+    }
+    .name-prop{
+        margin: 5px 0px;
+    }
+    
+}
+@media  screen and (min-width: 701px) and (max-width: 1350px){
+    .s-box{
+        margin: 10px;
+    }
+    .icon-b{
+        height: 6rem;
+        border: 1px solid black;
+        border-radius: 1.5rem;
+        width: 4.8rem;
+        margin: 10px 0px;
+        
+    }
+    .icon-b:hover{
+        border: 2px solid rgb(103, 103, 150);;
+        height: 6.2rem;
+        width: 5rem;
+        box-shadow: 10px 5px 5px rgb(209, 204, 204);
+    }
+    .icon-prop{
+        height: 3rem;
+        width: auto;
+    }
+    .name-prop{
+        margin: 5px 0px;
+    }
+}
