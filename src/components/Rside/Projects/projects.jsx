@@ -2,7 +2,7 @@ import "./projects.css";
 import {GrProjects} from "react-icons/gr";
 import { ProjectBox } from "./project-box";
 import {BiCodeAlt} from "react-icons/bi"
-import Image1 from "./image1.jpg";
+import Image1 from "./url.png";
 
 
 const Projects = () => {
@@ -21,11 +21,7 @@ return(
                               <ProjectBox img ={Image1} heading ={"URL Shortner"} des ={"HTML, CSS, JavaScript"} link="https://url-shortner-cls3.onrender.com"/>
                       </div>
                    
-                  
-                      <div className="pr-1">
-                              <ProjectBox img ={Image1} heading ={"URL Shortner"} des ={"HTML, CSS, JavaScript"}
-                              link="https://url-shortner-cls3.onrender.com"/>                    
-                      </div>
+                
                   
                       <div className="pr-1">
                             <ProjectBox img ={Image1} heading ={"URL Shortner"} des ={"HTML, CSS, JavaScript"}

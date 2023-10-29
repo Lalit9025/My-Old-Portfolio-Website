@@ -1,22 +1,27 @@
 .pbox-body{
     display: flex;
     flex-direction: column;
-    width: 15rem;
-    height: 16rem;
+    width: 18rem;
+    height: 20rem;
     border: 1px solid white;
     padding: 10px;
     align-items: center;
-    background-color: rgb(241, 234, 234);
+    background-color: rgba(221, 226, 232, 0.781);
     
     margin: 20px 10px;
-    box-shadow: 10px 5px 5px rgb(194, 198, 219);
+    box-shadow: 10px 5px 5px rgb(198, 202, 221);
     border-radius: 0.3rem;
     
 }
 .pimg{
     height:auto;
-    width:10rem;
+    width:24rem;
     margin: 10px;
+    margin-top: 15px;
+}
+.pimg:hover{
+    scale: 1.09;
+    transition: all 1s;
 }
 .pr-heading{
    text-align:center;
@@ -36,7 +41,7 @@
     border-radius: 2rem;
     height: 2rem;
     width: 6rem;
-    margin: 0px;
+    margin-top: 14px;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(194, 198, 219);
     border: 1px solid rgb(183, 174, 174);
@@ -48,7 +53,7 @@
     }
     .pimg{
         height: auto;
-        width:6rem;
+        width:12rem;
         margin: 0px 5px;
     }
     .pr-heading{

@@ -36,6 +36,7 @@
         text-align: center;
         border-top: 1px solid ;
         border-bottom: 1px solid ;
+        border-left: 0px ;
         padding: 0px;   
     }
     .container:hover{
