@@ -108,7 +108,7 @@
         overscroll-behavior-x:contain;
         scroll-snap-type: x mandatory;
         scrollbar-width: none;
-        width:10rem;
+        width:14rem;
         align-items: center;
         justify-content: center;
         padding-left:10rem
