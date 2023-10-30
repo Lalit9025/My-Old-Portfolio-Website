@@ -3,19 +3,8 @@ import "./resume.css";
 import { ResBox } from "./resbox";
 const Resume =() =>{
     return(
-        <div  id ="rs"className="resume">
-             {/* <div className="resume-icon">
-                  <a><GrResume/></a>
-                  <p>Resume</p>
-              </div>
-              <div className="res-text">
-                <span className="rhead-text1">Extra
-                <span className="rhead-text2"> Activities</span>
-                </span>
-                
-              </div> */}
+        <div  id ="rs"className="resume">            
               <div className="c-heading">
-                {/* <span className="s-heading">Resume</span> */}
                 <div className="h-text">
                     <span className="jhead-text1">Extra </span> 
                     <span className="jhead-text2">Activities</span>
@@ -37,7 +26,10 @@ const Resume =() =>{
                  </div>
                  
          </div>
-         <a href="https://drive.google.com/drive/folders/1VDPfbflsM2WWe3kq746C1rD9lIEmIAkw?usp=drive_link"><button className="rbtn">View Resume</button></a>
+         <div className="resume-btn">
+         <button className="rbtn"><a className="rbtn" href="https://drive.google.com/file/d/1HxD6tVK18bIPzFwWy1CXFUzKQyfeSKrm/view?usp=sharing">View Resume</a>
+</button>
+         </div>
         </div>
     )
 }
